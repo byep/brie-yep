@@ -1,0 +1,156 @@
+body {
+    overflow-y: auto;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #DEE7E7;
+    background-color: #0F1114;
+    margin: 0;
+}
+
+a {
+  font-weight: 300;
+  color: #DEE7E7;
+  text-decoration: none;
+}
+
+.TopNav-Background {
+  background-color: #1A1C22;
+          transition: box-shadow 0.3s, bottom: 0.3s;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.20);
+  opacity: 0;
+}
+
+.Color-Text-Primary {
+  color: #DEE7E7;
+}
+
+.Color-Text-Supporting {
+  color: #848484;
+}
+
+.Color-Text-Link {
+  color: #FF73FF;
+}
+
+.ContactLink:hover {
+  background: #2D3039;
+  border-radius: 6px;
+}
+
+.ContactLink:active {
+  background: #262931;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+
+.Content-BG {
+  background: #2D3039;
+}
+
+.Card-Styling {
+  /* THIS IS FOR ANIMATIONS */
+    -webkit-transition: 0.3s;
+          transition: 0.3s;
+          transition-timing-function: ease-in-out;
+          transition: box-shadow 0.3s, bottom: 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  /* THIS IS FOR ANIMATIONS - END */
+}
+
+.Card:hover {
+  /* THIS IS FOR ANIMATIONS */
+  box-shadow: 0 0 24px rgba(0, 0, 0,.6);
+  bottom: 2px;
+  /* THIS IS FOR ANIMATIONS - END */
+}
+
+.Card:focus {
+  border-radius: 0;
+}
+
+.FunCard {
+  /* THIS IS FOR ANIMATIONS */
+    -webkit-transition: 0.3s;
+          transition: 0.3s;
+          transition-timing-function: ease-in-out;
+          transition: box-shadow 0.3s, bottom: 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  /* THIS IS FOR ANIMATIONS - END */
+}
+
+.FunCard:hover {
+  /* THIS IS FOR ANIMATIONS */
+  box-shadow: 0 0 24px rgba(0, 0, 0,.6);
+  bottom: 2px;
+  /* THIS IS FOR ANIMATIONS - END */
+}
+
+
+#Switch-BG {
+  position: relative;
+  top: 4px;
+  left: 0;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  margin: 0 4px;
+  border-radius: 28px;
+  background: #FF73FF;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+          transition-timing-function: ease-in-out;
+}
+
+#Switch-Toggle {
+  position: relative;
+  top: 2px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+          transition-timing-function: ease-in-out;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.switch::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius:50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+
+.checkbox:checked + .switch::after {
+  left : 20px;
+}
+.checkbox:checked + .switch {
+  background-color: #7983ff;
+}
+.checkbox {
+  display : none;
+}

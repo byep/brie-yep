@@ -1,0 +1,343 @@
+body {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+
+a {
+/*  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;*/
+}
+
+.Color-Text-Primary {
+/*  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;*/
+}
+
+.Content-BG {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+
+/*img class="Detail-Image" {
+  width: 100%;
+  max-width: 590px;
+  position:relative;
+    left:50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}*/
+
+
+.PageWrapper {
+  max-width: 590px;
+  width: 100%;
+  float: left;
+  position:relative;
+    left:50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+  margin: 80px 0 32px 0;
+ /* background: yellow;*/
+}
+
+/*_______________Classes__________*/
+
+
+.Type-Display {
+  font-family: Fira Sans;
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 300;
+}
+
+.Type-Header-1 {
+  font-family: Fira Sans;
+  font-size: 32px;
+  line-height:42px;
+  font-weight: 400;
+}
+
+/*.Type-Header-2 {
+  font-family: Fira Sans;
+  font-size: 20px;
+  line-height:28px;
+  font-weight: 400;
+}*/
+
+.Type-Body {
+  font-family: Fira Sans;
+  font-size: 20px;
+  line-height:28px;
+  font-weight: 300;
+}
+
+.Type-Link:hover {
+  text-decoration: underline;
+}
+
+.Type-TopNav {
+  font-family: Fira Sans;
+  line-height: 31px;
+  font-weight: 400;
+}
+
+.Type-TopNav:hover {
+  text-decoration: underline;
+}
+
+.TopNav-Background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  z-index: 999;
+
+}
+
+.ProjectTitle {
+  text-align: center;
+}
+
+
+.Highlight {
+  font-weight: 400;
+  /*background: linear-gradient(to left, #FF6968 0%, #FED688 20%, #88FF89 40%, #87FFFF 60%, #8CB5FE 80%, #FF8CFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.ContactLink {
+  padding: 8px 3px;
+  text-align: center;
+}
+
+.Previous-Link {
+  position: absolute;
+  left: 0;
+}
+
+.Next-Link {
+  position: absolute;
+  right: 0;
+}
+
+.ContactLink-ResponsiveWrapper {
+  width: 33%;
+}
+
+.ProjectLink-ResponsiveWrapper {
+  width: 50%;
+}
+
+
+.ContactLink-LinkedIn {
+  display: flex;
+  justify-content: center;
+}
+
+.LinkedIn-Icon {
+  width:18px;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 8px;
+}
+
+.LinkedInIcon-VerticalAlignment {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+b {
+  font-weight: 400;
+}
+
+
+.LinkUnderline {
+  display: inline-block;
+  border-bottom: 2px solid #FF8CFF;
+  border-image: linear-gradient(to left, #FF8CFF 0%, #88FF89 100%);
+  border-image-slice: 1;
+  /*border-image: linear-gradient(to left, #FF6968 0%, #FED688 20%, #88FF89 40%, #87FFFF 60%, #8CB5FE 80%, #FF8CFF 100%);
+  border-image-slice: 1;*/
+  margin-bottom: -1px;
+  height: 62px;
+  font-weight: 300;
+}
+
+
+/*_______________Top Nav__________*/
+#Name {
+  position: fixed;
+  top: 0; left: 0;
+  margin: 12px;
+  z-index: 999;
+}
+
+#TopNav {
+  position: fixed;
+  top: 0; right: 0;
+  height: 28px;
+  margin: 9px;
+  z-index: 999;
+}
+
+/*.Contact-Work {
+  padding-right: 16px;
+}*/
+
+.TopNav-DarkMode {
+  display: inline-block;
+  margin-left: 24px;
+}
+
+
+/*_______________Case Studies__________*/
+
+.SectionContainer {
+  width: 90%;
+  /*min-width: 600px;*/
+/*  float: left;*/
+  position:relative;
+/*    left:50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);*/
+  margin: 64px auto 64px auto;
+/*  background: yellow;*/
+}
+
+
+.Contact-SideBySideLayout {
+  display: flex;
+
+}
+
+.Card {
+  width: 100%;
+ /* min-width: 272px;*/
+/*  float: left;
+  position:relative;*/
+/*    left:50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);*/
+  border-radius: 12px;
+  padding-bottom: 4px;
+  margin: 0 0 32px 0;
+  bottom: 0px;
+  position: relative;
+}
+
+/*.FunStuffContainer {
+    width: 100%;
+    height: 500px;
+    position:relative;
+    left:50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    background: red;
+}*/
+
+.FunStuff-Project {
+  width: 33%;
+  /*padding: 8px 8px 16px 8px;*/
+  bottom: 0px;
+  position: relative;
+  float: left;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+
+.Thumbnail {
+  float: left;
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0px;
+  margin-bottom: 24px;
+}
+
+.Thumbnail-Small {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.Thumbnail-Small-Wrapper {
+  width: 90%;
+  /*justify-content: center;*/
+  margin: auto;
+}
+
+.Card-Text-Wrapper {
+  padding: 0px 24px 10px 24px;
+}
+
+.Card-Text-ContentBlock {
+  padding: 0px 0px 10px 0px;
+}
+
+#Parrot {
+  float: left;
+  position: relative;
+  top: -4px; /*left: 60px;*/
+  width: 56px; height: 56px;
+  margin: 0 20px 0 0;
+  /*  background: lightgrey;*/
+  background: url('https://cultofthepartyparrot.com/parrots/hd/parrot.gif');
+  background-size: 56px;
+}
+
+
+/*___________Container Colors____________*/
+
+.FullWidthColor {
+  width: 100%;
+  display: inline-block;
+}
+
+.TAGreen {
+  background: #00a680;
+}
+
+.White {
+  background: #FFFFFF;
+}
+
+
+
+/*__________________________________________*/
+
+.Image {
+  width: 100%; height:300px;
+  border-radius: 2px;
+  margin: 36 0 36 0;
+}
+
+.Detail-Image {
+  width: 100%;
+}

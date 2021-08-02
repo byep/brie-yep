@@ -1,0 +1,77 @@
+@media only screen and (max-width: 480px) {
+
+  body {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .Type-Display {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .Type-Header-1 {
+    font-size: 20px;
+    line-height:28px;
+  }
+
+  .Type-Body {
+    font-size: 16px;
+    line-height:22px;
+  }
+
+.Type-TopNav {
+  font-family: Fira Sans;
+  line-height:28px;
+
+}
+
+  .ContactLink {
+    font-size: 16px;
+  }
+
+
+  #Parrot {
+    width: 34px; height: 34px;
+    margin: 0 12px 0 0;
+    background-size: 34px;
+  }
+
+  .LinkUnderline {
+    height: 36px;
+  }
+
+.SectionContainer {
+  margin: 42px auto 42px auto;
+}
+
+
+#TopNav {
+  position: fixed;
+  top: 0;
+/*  left: 84px;*/
+  right: 0;
+  height: 28px;
+  margin: 7px;
+  z-index: 999;
+}
+
+.TopNav-Background {
+  height: 48px;
+}
+
+.FunStuff-Project {
+  width: 50%;
+  /*padding: 8px 8px 16px 8px;*/
+/*  bottom: 0px;
+  position: relative;
+  float: left;
+  text-align: center;*/
+}
+
+.Thumbnail-Small-Wrapper {
+  /*width: 40%;*/
+}
+
+/*media query closing tag*/
+} 
